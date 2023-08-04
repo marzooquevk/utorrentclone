@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+}
+li{
+    list-style-type: none;
+    display:flex;
+}
+.header_div{
+    width: 100%;
+    height: 66px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.nav_links{
+    padding: 20px;
+    float:right;
+    text-decoration: none;
+    color: black;
+    margin-right: 40px;
+    display: block;
+}
+
+.menu_icon{
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    float: right;
+    display: none;
+    border: 1px;
+    border-style:solid;
+    
+}
+.emblom_first{
+    padding-left: 105px;
+    padding: top 1px;;
+    /* width: 30px; */
+    height:75px;
+    position: absolute;
+    z-index: 1;
+}
+.image_background_div{
+    width: 100%;
+    height: 346px;
+    background: rgb(32, 29, 61);
+    
+    z-index: 1;
+    align-items: center;
+    align-content: center
+}
+.image_Front{
+    height: 340px;
+    width: 350px;
+    align-content: center;
+    margin-left: 210px;
+    
+}
+.image_part_left{
+width: 50%;
+float: left;
+}
+.Image_Right_Part{
+   
+   
+    width: 50%;
+    height: 346px;
+    float: left;    
+    align-items: center;    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.right_Emblom{
+    height: 60px;
+}
+.Name_Right_uto{
+    color: rgb(81, 156, 7);
+    font-size: 36px;
+    position: relative;
+    font-weight: bolder;
+}
+.BTN_Download{
+    width: 255px;
+    height: 50px;
+    background: rgb(64, 179, 64);
+    color: white;
+    border-style: none;
+    border-radius: 6px;
+}
+.Classic_full_part{
+    width: 100%;
+    height: 340px;
+    float: left;
+    margin: 0;
+    position: relative;
+    
+    
+}
+.Classic_Left_part{
+    width: 50%;
+    height: 340px;    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;    
+    align-items: center;  
+    float: left;
+    
+}
+.Right_Part_image{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    
+    align-content: center;
+    justify-content: center;
+    
+}
+.features_div{
+    
+   text-align: center;
+   margin-bottom: 50px;
+}
+.features_box{
+    
+    padding: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20 px;
+    
+}
+.tick_div{
+    width: 50px;
+    height: 90px;
+    float: left;
+   
+}
+.tick_h5_heading{
+    font-weight: bolder;
+}
+.footer_part{
+    width: 100vm;
+    height:500px;
+    background-color: rgb(39, 40, 61);
+    padding-top: 50px;
+}
+.footer_Emblom_div{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.last_terms{
+    width: 50%;
+    color: rgb(163, 122, 122);
+    float: right;
+    text-align: right;
+    font-size: 15px;
+    text-decoration:none;
+    
+    padding-top: 30px;
+    
+    
+}
+
+@media only screen and (max-width:850px) {
+    .image_part_left{
+    display: none;
+
+    }
+    
+    .header_div{
+        position: relative;
+    }
+    nav{
+       
+        margin-top: 66px;
+        width: 100%;
+        height: 200px;
+        background: rgb(255, 255, 255);
+        position: absolute;
+        display: flex;
+        justify-content: center; 
+        align-items: center;       
+       z-index: 1;
+        display: none;
+       
+    }
+    .navbar_list{
+        display: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    
+    .menu_icon{
+        display:block;
+        z-index: 1;
+        
+    }
+    
+    .Image_Right_Part{
+        width: 100%;
+    }
+    .Classic_Left_part{
+        width: 100%;
+    }
+    .Right_Part_image{
+        display: none;
+    }
+    .footer_Emblom_div{
+        width: 100%;
+    }
+    
+}
